@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed left-0 right-0 top-0 z-50 px-4 pt-5 sm:px-6">
-      <div className="mx-auto flex h-20 max-w-[1400px] items-center justify-between rounded-full border border-white/20 bg-black/30 px-5 backdrop-blur-xl sm:px-8">
+      <div className="mx-auto flex h-20 max-w-350 items-center justify-between rounded-full border border-white/20 bg-black/30 px-5 backdrop-blur-xl sm:px-8">
 
         {/* Logo */}
         <NavLink
