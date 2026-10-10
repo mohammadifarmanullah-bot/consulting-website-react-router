@@ -1,5 +1,10 @@
 import { useState } from "react";
 import React from "react";
+import { motion } from "motion/react"
+
+
+
+
 
 const Hero = () => {
     const [count, setCount] = useState(0)
@@ -17,13 +22,13 @@ const Hero = () => {
         
 
         {/* Hero Content */}
-        <div className="relative z-10 flex min-h-screen items-center justify-start text-start text-white px-12">
-          <div>
-            <h1 className="text-7xl font-bold">
-            Grow <br/> <span className="text-[#136bc2]">your business faster</span>
+        <div className="relative z-8 flex min-h-screen items-center justify-start text-start text-white px-12">
+          <div className="mt-24">
+            <h1 className="from-neutral-100 text-7xl">
+            Grow your <br/> <span className="text-[#136bc2]">business faster</span>
             </h1>
 
-            <p className="mt-7 text-2xl">
+            <p className="font-serif mt-8 text-[12px] text-gray-300">
             With our expertise and dedication, we'll help you navigate challenges, seize <br /> <span>opportunities, and achieve your business goals.</span>
             </p>
             <div className="mt-12 flex gap-3 ">

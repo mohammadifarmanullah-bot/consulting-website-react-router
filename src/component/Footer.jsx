@@ -96,7 +96,7 @@ const columns = [
   
   function Footer() {
     return (
-      <footer className="bg-[#106cc8] px-6 pt-20 pb-16 text-white">
+      <footer className="justify-items-center bg-[#106cc8]  pt-20 pb-16 text-white">
         <div className="mx-auhref max-w-5xl">
           {/* CTA row */}
           <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">

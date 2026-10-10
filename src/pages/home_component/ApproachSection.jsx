@@ -44,7 +44,7 @@ function TrendIcon() {
 
 function ApproachSection() {
   return (
-    <section className="bg-white px-6 py-16 text-neutral-900">
+    <section className="relative flex z-30 bg-white px-6 py-16 text-neutral-900">
       <div className="mx-auto grid max-w-5xl items-center gap-12 md:grid-cols-2 md:gap-16">
         {/* Image with floating stats card */}
         <div className="relative aspect-7/8 overflow-hidden rounded-2xl bg-neutral-300">
@@ -104,6 +104,7 @@ function ApproachSection() {
           </ul>
         </div>
       </div>
+      
     </section>
   );
 }

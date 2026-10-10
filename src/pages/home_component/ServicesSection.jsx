@@ -67,7 +67,7 @@ const services = [
   
   export default function ServicesSection() {
     return (
-      <section className="bg-white px-6 py-16 text-neutral-900">
+      <section className="relative z-10 bg-white px-6 py-16 text-neutral-900">
         <div className="mx-auto max-w-4xl">
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <div>
@@ -92,6 +92,7 @@ const services = [
             ))}
           </div>
         </div>
+        
       </section>
     );
   }
